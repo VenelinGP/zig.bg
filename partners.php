@@ -72,7 +72,7 @@
     </style>
 </head>
 
-<body class="bg-background-light text-slate-200 font-sans antialiased overflow-x-hidden">
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-sans antialiased">
     <?php include 'header.html'; ?>
     <h1 class="text-4xl font-display font-bold text-center mt-20 mb-10">Партньори</h1>
 

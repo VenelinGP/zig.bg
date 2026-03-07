@@ -14,7 +14,8 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./styles/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>`
     <script>
     tailwind.config = {
         darkMode: "class",
@@ -81,58 +82,29 @@
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlnd4eRK3xZXpnwB_6AwmC5-g_9MY4kqA8dkY-wLQC543d4phpCMeJimKVcfI0CAvjWUSMaUZWLqD47pzs_-JNpFPJpE3POeMSLWMCmcpsvqStV2ahCbl-zqSupIBOS0nakneKAlvcGO146F_tEWcGep_SjMIOU_NJQNOoUMJBCFq51KMWHqcKrKf_iGkZUUdWKrW9BihHHDmMf7CjD5-gDE5V12lwf2Y8JUU2_aUbRvkTz_Moq7EPVx5UTopQ8Cyka1zh7imUz30" />
         </div>
         <div class="relative z-10 text-center px-6 max-w-5xl">
-            <div
-                class="inline-flex items-center gap-2 px-4 py-2 glassmorphism rounded-full mb-8 text-primary font-bold text-xs uppercase tracking-[0.2em]">
+            <!-- <div
+                class="inline-flex items-center gap-2 px-4 py-2 glassmorphism rounded-full mb-8 text-accent-blue font-bold text-xs uppercase tracking-[0.2em]">
                 <span class="relative flex h-2 w-2">
                     <span
-                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-blue opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-accent-blue"></span>
                 </span>
-                Индустрия 4.0 Технологии
-            </div>
-            <h1 class="text-5xl md:text-8xl font-display font-extrabold text-white mb-6 leading-[1.1] tracking-tight">
-                ПРЕЦИЗНОСТ <br />
-                <span class="gradient-text">БЕЗ КОМПРОМИСИ</span>
+                Технологичен център 2025
+            </div> -->
+            <h1 class="text-6xl md:text-9xl font-display font-extrabold text-white mb-6 leading-none tracking-tighter">
+                СПЕЦИАЛИЗИРАН <span class="gradient-text">ЦЕНТЪР</span>
             </h1>
-            <p class="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
-                Следващо поколение металообработка и ремонт на двигатели с най-иновативните технологии на пазара.
-                Гарантирано
-                качество за всеки детайл.
+            <p class="text-slate-400 text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed">
+                За механична обработка на детайлите съставящи двигателите с вътрешно горене и други сходни механизми.
             </p>
-            <div class="flex flex-col sm:flex-row gap-6 justify-center">
-                <button
-                    class="px-10 py-5 bg-primary text-white rounded-xl font-extrabold text-lg animate-neon hover:scale-105 transition-transform flex items-center justify-center gap-3">
-                    ЗАПИТВАНЕ ЗА ОФЕРТА
-                    <span class="material-icons-round">arrow_forward</span>
-                </button>
-                <button
-                    class="px-10 py-5 glassmorphism text-white rounded-xl font-bold text-lg hover:bg-white/10 transition-colors flex items-center justify-center gap-3">
-                    НАШИТЕ УСЛУГИ
-                </button>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
-                <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-primary">
-                    <span class="material-icons-round text-primary text-3xl mb-3">biotech</span>
-                    <h3 class="text-white font-bold text-lg mb-1">Точност до 0.001мм</h3>
-                    <p class="text-slate-400 text-sm">Най-висок клас измервателни системи</p>
-                </div>
-                <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-accent-blue">
-                    <span class="material-icons-round text-accent-blue text-3xl mb-3">verified</span>
-                    <h3 class="text-white font-bold text-lg mb-1">Сертифициран процес</h3>
-                    <p class="text-slate-400 text-sm">Гарантирано качество по ISO стандарти</p>
-                </div>
-                <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-white">
-                    <span class="material-icons-round text-white text-3xl mb-3">speed</span>
-                    <h3 class="text-white font-bold text-lg mb-1">Експресна работа</h3>
-                    <p class="text-slate-400 text-sm">Среден срок за изпълнение 48 часа</p>
-                </div>
-            </div>
         </div>
+
     </section>
     <section class="py-32 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-20">
-                <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">ЗАЩО ДА ИЗБЕРЕТЕ НАС
+                <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">ЗАЩО ДА
+                    ИЗБЕРЕТЕ НАС
                 </h2>
                 <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
                 <p class="text-slate-500 dark:text-slate-400 max-w-xl mx-auto text-lg">
@@ -148,7 +120,8 @@
                     </div>
                     <h3 class="text-2xl font-display font-bold mt-6 mb-4 dark:text-white">Прецизност</h3>
                     <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
-                        Работим с толеранс до 0.001мм, гарантирайки перфектно прилягане на всички компоненти и дълъг
+                        Работим с толеранс до 0.001мм, гарантирайки перфектно прилягане на всички компоненти и
+                        дълъг
                         живот на
                         двигателя.
                     </p>
@@ -161,7 +134,8 @@
                     </div>
                     <h3 class="text-2xl font-display font-bold mt-6 mb-4 dark:text-white">Технологии</h3>
                     <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
-                        Стругове, шлифовъчни машини и 3D измервателни системи от последно поколение (2025-2026 моделна
+                        Стругове, шлифовъчни машини и 3D измервателни системи от последно поколение (2025-2026
+                        моделна
                         линия).
                     </p>
                 </div>
@@ -173,7 +147,8 @@
                     </div>
                     <h3 class="text-2xl font-display font-bold mt-6 mb-4 dark:text-white">Експертен екип</h3>
                     <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
-                        Опитни специалисти с дългогодишен опит в ремонта на корабни, тежкотоварни и спортни двигатели.
+                        Опитни специалисти с дългогодишен опит в ремонта на корабни, тежкотоварни и спортни
+                        двигатели.
                     </p>
                 </div>
             </div>
@@ -183,7 +158,8 @@
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                 <div class="max-w-xl">
-                    <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">НАШИТЕ УСЛУГИ</h2>
+                    <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">НАШИТЕ
+                        УСЛУГИ</h2>
                     <p class="text-slate-500 dark:text-slate-400 text-lg">
                         Комплексни технологични решения за ремонт и възстановяване на индустриални компоненти.
                     </p>
@@ -201,12 +177,14 @@
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4T9E-xIdyF1gGfQWDGy4DVjZ6hKrT1wIu7vJKXt8bMT5BPK12x2hec1PY7CnyY3PejwWIBhkXZtqH1wjskPa0MWor58MD0Li4LGqZi7pDmllZjLIIt9BMvs2t3DRO3QGV_xCvp6rU5gLH84B75LGPkKElVGBZDiVE2tFFzNDR-MZVg3nQh9YM5N1Hwf0SqXXcjRhaa2XXVxZG7xnuHl0zlMDUgHOKuTejJ8KYfVTMeSr6yiy_WcW_JJnsFXUD-7d0O5RiY4R0dn0" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
-                            <h3 class="text-3xl font-display font-bold text-white">Струговане на Колянови Валове</h3>
+                            <h3 class="text-3xl font-display font-bold text-white">Струговане на Колянови Валове
+                            </h3>
                         </div>
                     </div>
                     <div class="p-10">
                         <p class="text-slate-500 dark:text-slate-400 mb-8 text-lg">
-                            Прецизно струговане и шлайфане на валове за автомобили, камиони, кораби и индустриални
+                            Прецизно струговане и шлайфане на валове за автомобили, камиони, кораби и
+                            индустриални
                             двигатели.
                         </p>
                         <ul class="space-y-4 mb-10">
@@ -244,7 +222,8 @@
                     </div>
                     <div class="p-10">
                         <p class="text-slate-500 dark:text-slate-400 mb-8 text-lg">
-                            Пълно възстановяване на повредени детайли, включително заваряване и специфична термична
+                            Пълно възстановяване на повредени детайли, включително заваряване и специфична
+                            термична
                             обработка.
                         </p>
                         <ul class="space-y-4 mb-10">
@@ -277,12 +256,15 @@
         <div
             class="max-w-7xl mx-auto glassmorphism bg-slate-900/90 dark:bg-slate-900/40 rounded-[0.5rem] p-12 md:p-20 text-center relative overflow-hidden">
             <div class="absolute -right-20 -top-20 w-64 h-64 bg-primary/20 blur-[100px] rounded-full"></div>
-            <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-accent-blue/20 blur-[100px] rounded-full"></div>
+            <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-accent-blue/20 blur-[100px] rounded-full">
+            </div>
             <div class="relative z-10">
-                <h2 class="text-4xl md:text-6xl font-display font-extrabold text-white mb-8">ГОТОВИ ЛИ СТЕ ДА ЗАПОЧНЕМ?
+                <h2 class="text-4xl md:text-6xl font-display font-extrabold text-white mb-8">ГОТОВИ ЛИ СТЕ ДА
+                    ЗАПОЧНЕМ?
                 </h2>
                 <p class="text-slate-300 text-xl max-w-2xl mx-auto mb-12">
-                    Изпратете ни вашето запитване и наш специалист ще се свърже с вас до 2 часа с предварителна оферта.
+                    Изпратете ни вашето запитване и наш специалист ще се свърже с вас до 2 часа с предварителна
+                    оферта.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
                     <a class="text-white text-2xl font-bold flex items-center gap-3 hover:text-primary transition-colors"

@@ -73,7 +73,7 @@
 </head>
 <!-- bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-sans antialiased -->
 
-<body class="bg-background-dark text-slate-200 font-sans antialiased overflow-x-hidden">
+<body class="bg-background-dark text-slate-800 dark:text-slate-200 font-sans antialiased overflow-x-hidden">
     <?php include 'header.html'; ?>
 
     <main class="pt-32 pb-20">

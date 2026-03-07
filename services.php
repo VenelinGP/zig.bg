@@ -14,7 +14,8 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./styles/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>`
     <script>
     tailwind.config = {
         darkMode: "class",
@@ -72,7 +73,7 @@
     </style>
 </head>
 
-<body class="bg-background-light text-slate-200 font-sans antialiased overflow-x-hidden">
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-sans antialiased">
     <?php include 'header.html'; ?>
     <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-20">
         <div class="absolute inset-0">
@@ -82,20 +83,48 @@
         </div>
         <div class="relative z-10 text-center px-6 max-w-5xl">
             <!-- <div
-                class="inline-flex items-center gap-2 px-4 py-2 glassmorphism rounded-full mb-8 text-accent-blue font-bold text-xs uppercase tracking-[0.2em]">
+                class="inline-flex items-center gap-2 px-4 py-2 glassmorphism rounded-full mb-8 text-primary font-bold text-xs uppercase tracking-[0.2em]">
                 <span class="relative flex h-2 w-2">
                     <span
-                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-blue opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-2 w-2 bg-accent-blue"></span>
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                 </span>
-                Технологичен център 2025
+                Индустрия 4.0 Технологии
             </div> -->
-            <h1 class="text-6xl md:text-9xl font-display font-extrabold text-white mb-6 leading-none tracking-tighter">
-                СПЕЦИАЛИЗИРАН <span class="gradient-text">ЦЕНТЪР</span>
+            <h1 class="text-5xl md:text-8xl font-display font-extrabold text-white mb-6 leading-[1.1] tracking-tight">
+                ПРЕЦИЗНОСТ <br />
+                <span class="gradient-text">БЕЗ КОМПРОМИСИ</span>
             </h1>
-            <p class="text-slate-400 text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed">
-                За механична обработка на детайлите съставящи двигателите с вътрешно горене и други сходни механизми.
+            <p class="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+                Следващо поколение металообработка и ремонт на двигатели с най-иновативните технологии на пазара
+                <br> Гарантирано качество за всеки детайл.
             </p>
+            <p class="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <button
+                    class="px-10 py-5 bg-primary text-white rounded-xl font-extrabold text-lg animate-neon hover:scale-105 transition-transform flex items-center justify-center gap-3">
+                    НАШИТЕ УСЛУГИ
+                </button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
+                <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-primary">
+                    <span class="material-icons-round text-primary text-3xl mb-3">biotech</span>
+                    <h3 class="text-white font-bold text-lg mb-1">Точност до 0.001мм</h3>
+                    <p class="text-slate-400 text-sm">Най-висок клас измервателни системи</p>
+                </div>
+                <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-accent-blue">
+                    <span class="material-icons-round text-accent-blue text-3xl mb-3">verified</span>
+                    <h3 class="text-white font-bold text-lg mb-1">Сертифициран процес</h3>
+                    <p class="text-slate-400 text-sm">Гарантирано качество по ISO стандарти</p>
+                </div>
+                <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-white">
+                    <span class="material-icons-round text-white text-3xl mb-3">speed</span>
+                    <h3 class="text-white font-bold text-lg mb-1">Експресна работа</h3>
+                    <p class="text-slate-400 text-sm">Среден срок за изпълнение 48 часа</p>
+                </div>
+            </div>
         </div>
     </section>
 
