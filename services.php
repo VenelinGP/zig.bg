@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="./styles/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>`
@@ -75,7 +78,7 @@
 
 <body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-sans antialiased">
     <?php include 'header.html'; ?>
-    <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-20">
+    <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
         <div class="absolute inset-0">
             <img alt="High-contrast engine block machining" class="w-full h-full object-cover scale-105"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlnd4eRK3xZXpnwB_6AwmC5-g_9MY4kqA8dkY-wLQC543d4phpCMeJimKVcfI0CAvjWUSMaUZWLqD47pzs_-JNpFPJpE3POeMSLWMCmcpsvqStV2ahCbl-zqSupIBOS0nakneKAlvcGO146F_tEWcGep_SjMIOU_NJQNOoUMJBCFq51KMWHqcKrKf_iGkZUUdWKrW9BihHHDmMf7CjD5-gDE5V12lwf2Y8JUU2_aUbRvkTz_Moq7EPVx5UTopQ8Cyka1zh7imUz30" />
@@ -97,17 +100,17 @@
             </h1>
             <p class="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
                 Следващо поколение металообработка и ремонт на двигатели с най-иновативните технологии на пазара
-                <br> Гарантирано качество за всеки детайл.
+                <!-- <br> Гарантирано качество за всеки детайл. -->
             </p>
             <p class="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
 
             </p>
-            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+            <!-- <div class="flex flex-col sm:flex-row gap-6 justify-center">
                 <button
                     class="px-10 py-5 bg-primary text-white rounded-xl font-extrabold text-lg animate-neon hover:scale-105 transition-transform flex items-center justify-center gap-3">
                     НАШИТЕ УСЛУГИ
                 </button>
-            </div>
+            </div> -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
                 <div class="glassmorphism p-6 rounded-2xl text-left border-l-4 border-primary">
                     <span class="material-icons-round text-primary text-3xl mb-3">biotech</span>
@@ -136,18 +139,15 @@
                     <div class="relative h-64">
                         <img alt="Cylinder head pressure testing"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4T9E-xIdyF1gGfQWDGy4DVjZ6hKrT1wIu7vJKXt8bMT5BPK12x2hec1PY7CnyY3PejwWIBhkXZtqH1wjskPa0MWor58MD0Li4LGqZi7pDmllZjLIIt9BMvs2t3DRO3QGV_xCvp6rU5gLH84B75LGPkKElVGBZDiVE2tFFzNDR-MZVg3nQh9YM5N1Hwf0SqXXcjRhaa2XXVxZG7xnuHl0zlMDUgHOKuTejJ8KYfVTMeSr6yiy_WcW_JJnsFXUD-7d0O5RiY4R0dn0" />
+                            src="images/slide1.png" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent">
                         </div>
                         <div class="absolute bottom-6 left-8">
-                            <span
-                                class="px-3 py-1 bg-slate-700 text-white text-[10px] font-bold rounded uppercase tracking-widest mb-2 inline-block">Category
-                                03</span>
-                            <h3 class="text-3xl font-display font-extrabold text-white uppercase tracking-tight">
-                                Цилиндрови глави</h3>
+                            <h3 class="text-3xl font-display font-extrabold uppercase tracking-tight">
+                                Ремонт на цилиндрови глави</h3>
                         </div>
                     </div>
-                    <div class="p-8">
+                    <div class="pt-12 px-8 pb-8">
                         <ul class="space-y-4 mb-10">
                             <li class="flex items-start gap-3 group/item">
                                 <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
@@ -196,11 +196,6 @@
                             </li>
 
                         </ul>
-                        <button
-                            class="w-full py-4 bg-primary/10 border border-primary/30 text-white font-bold rounded-2xl hover:bg-primary transition-all shadow-lg hover:shadow-neon-red uppercase tracking-widest text-xs flex items-center justify-center gap-2 group-hover:bg-primary">
-                            <span>Запитване за цена</span>
-                            <span class="material-symbols-outlined text-sm">arrow_outward</span>
-                        </button>
                     </div>
                 </div>
                 <div
@@ -208,19 +203,16 @@
                     <div class="relative h-64">
                         <img alt="Engine block boring"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4T9E-xIdyF1gGfQWDGy4DVjZ6hKrT1wIu7vJKXt8bMT5BPK12x2hec1PY7CnyY3PejwWIBhkXZtqH1wjskPa0MWor58MD0Li4LGqZi7pDmllZjLIIt9BMvs2t3DRO3QGV_xCvp6rU5gLH84B75LGPkKElVGBZDiVE2tFFzNDR-MZVg3nQh9YM5N1Hwf0SqXXcjRhaa2XXVxZG7xnuHl0zlMDUgHOKuTejJ8KYfVTMeSr6yiy_WcW_JJnsFXUD-7d0O5RiY4R0dn0" />
+                            src="images/slide2.png" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent">
                         </div>
                         <div class="absolute bottom-6 left-8">
-                            <span
-                                class="px-3 py-1 bg-primary text-white text-[10px] font-bold rounded uppercase tracking-widest mb-2 inline-block">Category
-                                01</span>
-                            <h3 class="text-3xl font-display font-extrabold text-white uppercase tracking-tight">Ремонт
+                            <h3 class="text-3xl font-display font-extrabold uppercase tracking-tight">Ремонт
                                 на блокове
                             </h3>
                         </div>
                     </div>
-                    <div class="p-8">
+                    <div class="pt-12  px-8 pb-8">
                         <ul class="space-y-4 mb-10">
                             <li class="flex items-start gap-3 group/item">
                                 <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
@@ -246,11 +238,6 @@
                                     (магнитен тест)</span>
                             </li>
                         </ul>
-                        <button
-                            class="w-full py-4 bg-primary/10 border border-primary/30 text-white font-bold rounded-2xl hover:bg-primary transition-all shadow-lg hover:shadow-neon-red uppercase tracking-widest text-xs flex items-center justify-center gap-2 group-hover:bg-primary">
-                            <span>Запитване за цена</span>
-                            <span class="material-symbols-outlined text-sm">arrow_outward</span>
-                        </button>
                     </div>
                 </div>
                 <div
@@ -258,18 +245,17 @@
                     <div class="relative h-64">
                         <img alt="Crankshaft grinding"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1AK701jsJ21JHO6DXjI0eU5cqDsPMfO7OM5psBT5rFACcyVfwpn7MfhR-opfVnhubQaXjzZak8e9aF2XAsMk_u8uew50sx4wmiYFvU_8iQswkPVsQiO2dHJnZBknajPyootBnxOPm9DMAsMUIhYANuphY5dP_yC7xdwSknCRo5pTQINAFs7zDdig356MZ5u3gKHY2UaO9uau14Mdo6kpdjvQiIuvbNK-UXFaw6B0-CEpPi7SHO_7x70e1ELf03tMKbh-_VC7WqoU" />
+                            src="images/slide3.png" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent">
                         </div>
                         <div class="absolute bottom-6 left-8">
-                            <span
-                                class="px-3 py-1 bg-accent-blue text-white text-[10px] font-bold rounded uppercase tracking-widest mb-2 inline-block">Category
-                                02</span>
-                            <h3 class="text-3xl font-display font-extrabold text-white uppercase tracking-tight">
-                                Колянови валове</h3>
+                            <h3 class="text-3xl font-display font-extrabold uppercase tracking-tight">
+                                Шлайф на
+                                </br>
+                                колянов вал</h3>
                         </div>
                     </div>
-                    <div class="p-8">
+                    <div class="pt-12 px-8 pb-8">
                         <ul class="space-y-4 mb-10">
                             <li class="flex items-start gap-3 group/item">
                                 <span class="material-symbols-outlined text-accent-blue text-xl">check_circle</span>
@@ -293,11 +279,7 @@
                                     закаляване</span>
                             </li>
                         </ul>
-                        <button
-                            class="w-full py-4 bg-primary/10 border border-primary/30 text-white font-bold rounded-2xl hover:bg-primary transition-all shadow-lg hover:shadow-neon-red uppercase tracking-widest text-xs flex items-center justify-center gap-2 group-hover:bg-primary">
-                            <span>Запитване за цена</span>
-                            <span class="material-symbols-outlined text-sm">arrow_outward</span>
-                        </button>
+
                     </div>
                 </div>
 

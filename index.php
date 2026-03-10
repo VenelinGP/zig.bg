@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="./styles/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>`
@@ -71,15 +74,25 @@
         }
       }
     </style>
+    <style>
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL'0,
+            'wght'700,
+            'GRAD'0,
+            'opsz'24
+    }
+    </style>
 </head>
 
 <body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-sans antialiased">
     <?php include 'header.html'; ?>
-
-    <section class="relative h-screen flex items-center justify-center overflow-hidden">
-        <div class="absolute inset-0 hero-video-container">
-            <img alt="High speed CNC milling process" class="w-full h-full object-cover"
+    <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img alt="High speed CNC milling process" class="w-full h-full object-cover scale-105"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlnd4eRK3xZXpnwB_6AwmC5-g_9MY4kqA8dkY-wLQC543d4phpCMeJimKVcfI0CAvjWUSMaUZWLqD47pzs_-JNpFPJpE3POeMSLWMCmcpsvqStV2ahCbl-zqSupIBOS0nakneKAlvcGO146F_tEWcGep_SjMIOU_NJQNOoUMJBCFq51KMWHqcKrKf_iGkZUUdWKrW9BihHHDmMf7CjD5-gDE5V12lwf2Y8JUU2_aUbRvkTz_Moq7EPVx5UTopQ8Cyka1zh7imUz30" />
+            <div class=" absolute inset-0 hero-overlay">
+            </div>
         </div>
         <div class="relative z-10 text-center px-6 max-w-5xl">
             <!-- <div
@@ -100,7 +113,7 @@
         </div>
 
     </section>
-    <section class="py-32 px-6 relative overflow-hidden">
+    <section class="py-16 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-20">
                 <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">ЗАЩО ДА
@@ -116,7 +129,8 @@
                     class="group relative bg-white dark:bg-slate-900 p-10 rounded-3xl shadow-xl dark:shadow-slate-950/50 hover:-translate-y-4 transition-all duration-500 border border-slate-100 dark:border-slate-800">
                     <div
                         class="absolute -top-6 left-10 w-16 h-16 bg-primary rounded-2xl flex items-center justify-center shadow-lg shadow-primary/30 group-hover:rotate-6 transition-transform">
-                        <span class="material-icons-round text-white text-3xl">precision_manufacturing</span>
+                        <span class="material-symbols-outlined text-white text-3xl">hexagon</span>
+                        <!-- <span class="material-icons-round text-white text-3xl">hexagon</span> -->
                     </div>
                     <h3 class="text-2xl font-display font-bold mt-6 mb-4 dark:text-white">Прецизност</h3>
                     <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
@@ -130,7 +144,7 @@
                     class="group relative bg-white dark:bg-slate-900 p-10 rounded-3xl shadow-xl dark:shadow-slate-950/50 hover:-translate-y-4 transition-all duration-500 border border-slate-100 dark:border-slate-800">
                     <div
                         class="absolute -top-6 left-10 w-16 h-16 bg-accent-blue rounded-2xl flex items-center justify-center shadow-lg shadow-accent-blue/30 group-hover:rotate-6 transition-transform">
-                        <span class="material-icons-round text-white text-3xl">memory</span>
+                        <span class="material-symbols-outlined text-white text-3xl">memory</span>
                     </div>
                     <h3 class="text-2xl font-display font-bold mt-6 mb-4 dark:text-white">Технологии</h3>
                     <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
@@ -143,31 +157,33 @@
                     class="group relative bg-white dark:bg-slate-900 p-10 rounded-3xl shadow-xl dark:shadow-slate-950/50 hover:-translate-y-4 transition-all duration-500 border border-slate-100 dark:border-slate-800">
                     <div
                         class="absolute -top-6 left-10 w-16 h-16 bg-slate-800 dark:bg-slate-700 rounded-2xl flex items-center justify-center shadow-lg group-hover:rotate-6 transition-transform">
-                        <span class="material-icons-round text-white text-3xl">groups</span>
+                        <span class="material-symbols-outlined text-white text-3xl">groups</span>
                     </div>
                     <h3 class="text-2xl font-display font-bold mt-6 mb-4 dark:text-white">Експертен екип</h3>
                     <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
-                        Опитни специалисти с дългогодишен опит в ремонта на корабни, тежкотоварни и спортни
-                        двигатели.
+                        Високо квалифицирани специалисти с дългогодишен опит в областта на
+                        металообработването.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="py-32 bg-slate-50 dark:bg-slate-950 px-6" id="services">
+    <section class="py-16 bg-slate-50 dark:bg-slate-950 px-6" id="services">
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                 <div class="max-w-xl">
-                    <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">НАШИТЕ
-                        УСЛУГИ</h2>
+                    <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-4 dark:text-white">ЗА НАС</h2>
                     <p class="text-slate-500 dark:text-slate-400 text-lg">
                         Комплексни технологични решения за ремонт и възстановяване на индустриални компоненти.
                     </p>
                 </div>
-                <button
+                <a href="./services.php"
                     class="px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all rounded-xl font-bold">
                     ВИЖ ВСИЧКИ УСЛУГИ
-                </button>
+                </a>
+                <!-- <button
+                    class="px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all rounded-xl font-bold">
+                </button> -->
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div
@@ -177,37 +193,22 @@
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4T9E-xIdyF1gGfQWDGy4DVjZ6hKrT1wIu7vJKXt8bMT5BPK12x2hec1PY7CnyY3PejwWIBhkXZtqH1wjskPa0MWor58MD0Li4LGqZi7pDmllZjLIIt9BMvs2t3DRO3QGV_xCvp6rU5gLH84B75LGPkKElVGBZDiVE2tFFzNDR-MZVg3nQh9YM5N1Hwf0SqXXcjRhaa2XXVxZG7xnuHl0zlMDUgHOKuTejJ8KYfVTMeSr6yiy_WcW_JJnsFXUD-7d0O5RiY4R0dn0" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
-                            <h3 class="text-3xl font-display font-bold text-white">Струговане на Колянови Валове
+                            <h3 class="text-3xl font-display font-bold text-white">Цели и политика на фирмата
                             </h3>
                         </div>
                     </div>
                     <div class="p-10">
                         <p class="text-slate-500 dark:text-slate-400 mb-8 text-lg">
-                            Прецизно струговане и шлайфане на валове за автомобили, камиони, кораби и
-                            индустриални
-                            двигатели.
+                            Целта на фирмата З и Г – ООД чрез своята дейност (металообработване) да създава
+                            висококачествен продукт при обслужване на своите клиенти. Във фирмата работят 22 високо
+                            квалифицирани специалисти в областа на металообработването. За реализация на свойте
+                            възможности те са подпомогнати от специализиран машинен парк. С ясното съзнание, че
+                            реализацията на нашият продукт е в зоната на разнородния пазар на услугите /от едноличният
+                            клиент до голямата траспортна фирма/ всички работещи във фирмата се отнасят максимално
+                            уважително към клиента и решаването на неговите проблеми. Екипът от специалисти на фирмата и
+                            модерният и машинен парк осигуряват високо ниво на работа при ремонта и модифирацията на
+                            свички видове двигатели с вътрешно горене.
                         </p>
-                        <ul class="space-y-4 mb-10">
-                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
-                                <span
-                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                Автомобилни и спортни двигатели
-                            </li>
-                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
-                                <span
-                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                Дизелови генератори и кораби
-                            </li>
-                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
-                                <span
-                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                Индустриални задвижвания
-                            </li>
-                        </ul>
-                        <button
-                            class="w-full py-4 bg-primary text-white font-bold rounded-2xl hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
-                            ЗАПИТВАНЕ ЗА ЦЕНА
-                        </button>
                     </div>
                 </div>
                 <div
@@ -217,42 +218,85 @@
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1AK701jsJ21JHO6DXjI0eU5cqDsPMfO7OM5psBT5rFACcyVfwpn7MfhR-opfVnhubQaXjzZak8e9aF2XAsMk_u8uew50sx4wmiYFvU_8iQswkPVsQiO2dHJnZBknajPyootBnxOPm9DMAsMUIhYANuphY5dP_yC7xdwSknCRo5pTQINAFs7zDdig356MZ5u3gKHY2UaO9uau14Mdo6kpdjvQiIuvbNK-UXFaw6B0-CEpPi7SHO_7x70e1ELf03tMKbh-_VC7WqoU" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
-                            <h3 class="text-3xl font-display font-bold text-white">Ремонт и Възстановяване</h3>
+                            <h3 class="text-3xl font-display font-bold text-white">Дейност</h3>
                         </div>
                     </div>
-                    <div class="p-10">
+                    <div class="pr-10 pl-10 pt-10">
                         <p class="text-slate-500 dark:text-slate-400 mb-8 text-lg">
-                            Пълно възстановяване на повредени детайли, включително заваряване и специфична
-                            термична
-                            обработка.
+                            Възстановяване на двигатели с вътрешно горене и други сродни механизми чрез механична
+                            обработка на:
                         </p>
                         <ul class="space-y-4 mb-10">
                             <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
                                 <span
                                     class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                Заваряване на пукнатини (Аргон/Лазер)
+                                Колянов вал до 1600мм. и 160кг.
                             </li>
                             <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
                                 <span
                                     class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                Динамично балансиране
+                                Биели / мотовилки
                             </li>
                             <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
                                 <span
                                     class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                Повърхностно укрепване
+                                Цилиндров блок
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                цилиндрова глава и други подобни машинни елементи
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="pr-10 pl-10 pb-4">
+                        <p class="text-slate-500 dark:text-slate-400 mb-8 text-lg">
+                            Машинния парк на фирмата позволява качественно възстановяване чрез :
+                        </p>
+                        <ul class="space-y-4 mb-10">
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                шлайфане равнинно и цилиндрично
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                прецизно фрезоване
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                прецизно разстъргване на отвори (единично или във „вал линия”)
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                хонинговане на отвори от 4,00мм до 150мм
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                газодинамично прахово наплъстяване на цветни и черни метали/ниски работни температури/
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                заварки цветни метали,алуминий, стомана и чугун
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-700 dark:text-slate-300">
+                                <span
+                                    class="material-icons-round text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
+                                термично и химично водоструйно почистване на детайлите
                             </li>
                         </ul>
-                        <button
-                            class="w-full py-4 bg-slate-800 dark:bg-slate-700 text-white font-bold rounded-2xl hover:bg-slate-700 dark:hover:bg-slate-600 transition-colors shadow-lg">
-                            ЗАПИТВАНЕ ЗА ЦЕНА
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="py-24 px-6 relative">
+    <!-- <section class="py-24 px-6 relative">
         <div
             class="max-w-7xl mx-auto glassmorphism bg-slate-900/90 dark:bg-slate-900/40 rounded-[0.5rem] p-12 md:p-20 text-center relative overflow-hidden">
             <div class="absolute -right-20 -top-20 w-64 h-64 bg-primary/20 blur-[100px] rounded-full"></div>
@@ -280,7 +324,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <?php include 'footer.html'; ?>
     <script src="js/header_scroll.js"></script>

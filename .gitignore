@@ -1,1 +1,4 @@
 *.docx
+arhive/
+node_modules/
+src/
